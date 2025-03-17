@@ -88,9 +88,13 @@ def get_derip_consensus(
         print('RIP summary by row:')
         derip_object.print_rip_summary()
 
+        # Print raw alignment
+        print(f'\nRaw alignment:\n{derip_object.alignment}')
+        print(f'{derip_object.colored_consensus} {consensus_name}\n')
+
         # Print masked alignment
         print('\nMutation masked alignment:\n', derip_object.masked_alignment)
-        print(f'{str(derip_object.gapped_consensus.seq)} {consensus_name}\n')
+        print(f'{derip_object.colored_consensus} {consensus_name}\n')
 
         # Opt1: Write output consensus to file
         derip_object.write_consensus(output_file, consensus_id=consensus_name)
