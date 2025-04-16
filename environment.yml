@@ -29,7 +29,7 @@ dependencies:
     - biopython
     - click
     - dataclasses
-    - derip2 >=0.1.0
+    - derip2 >=0.4.0
     - dill
     - joblib
     - matplotlib
