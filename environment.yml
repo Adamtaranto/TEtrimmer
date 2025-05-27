@@ -7,7 +7,7 @@ dependencies:
   - aliview
   - bedtools >=2.31.1
   - bioconductor-biostrings
-  - blast #arm64 null # Note: Ignore clobber warnings. blast and rmblast contain some duplicate binaries.
+  - blast # Note: Ignore clobber warnings. blast and rmblast contain some duplicate binaries.
   - cd-hit
   - emboss #arm64 null
   - ghostscript
@@ -20,7 +20,7 @@ dependencies:
   - r-base
   - r-rcpp
   - recon #arm64 null
-  - repeatmasker #arm64 null
+  - repeatmasker
   - repeatmodeler #arm64 null
   - samtools
   - trf
@@ -29,6 +29,7 @@ dependencies:
     - biopython
     - click
     - dataclasses
+    - derip2 >=0.4.0
     - dill
     - joblib
     - matplotlib
