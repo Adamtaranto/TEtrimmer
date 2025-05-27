@@ -73,7 +73,7 @@ with open(config_path, 'r') as config_file:
 
                 ##########################################################################################
 
-                python ./path_to_TEtrimmer_folder/TEtrimmer.py -i <TE_consensus_file> -g <genome_file>
+                TEtrimmer -i <TE_consensus_file> -g <genome_file>
 
                 TEtrimmer is designed to automate the manual curation of transposable elements (TEs).
 
